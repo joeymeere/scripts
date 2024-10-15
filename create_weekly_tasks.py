@@ -19,16 +19,14 @@ def setup_squad_folder():
         file.write("")
 
     # Contents for "Tasks.md"
-    tasks_content = """# Tasks & Priorities
-    *Lowest to Highest Priority*
-    1. ---
+    tasks_content = """*Lowest to Highest Priority*
+1. ---
+  
 
-     
-
-    | ----          | Urgent  | Not Urgent |
-    | ------------- | ------- | ---------- |
-    | Important     | 1. [] - | 1. [] -    |
-    | Not Important | 1. [] - | 1. [] -    |
+| ----          | Urgent  | Not Urgent |
+| ------------- | ------- | ---------- |
+| Important     | 1. [❌] - Squads TG Partner Chats | 1. [❌] - Zircon / Dreamcast    |
+| Not Important | 1. [❌] - Squads Discord Tickets | 1. [❌] - Misc. Discord Messages   |
     """
 
     # Create "Tasks.md" file and write the content
